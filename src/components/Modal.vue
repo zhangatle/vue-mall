@@ -8,7 +8,7 @@
         <a href="javascript:;" class="icon-close" v-on:click="$emit('cancel')"></a>
       </div>
       <div class="modal-body">
-        <slog name="body"></slog>
+        <slot name="body"></slot>
       </div>
       <div class="modal-footer">
         <a href="javascript:;" class="btn" v-if="btnType==1" v-on:click="$emit('submit')">{{sureText}}</a>

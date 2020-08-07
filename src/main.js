@@ -15,6 +15,7 @@ if(mock) {
 }
 
 axios.defaults.baseURL = "/api"
+axios.defaults.baseURL = "http://mi.futurefe.com/api"
 axios.defaults.timeout = 8000
 
 // 接口错误拦截
